@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="css/jquery.mCustomScrollbar.css">
+    <link rel="stylesheet" href="css/index.css">
+    <script src="js/jquery-1.12.4.js"></script>
+    <script src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <script src="js/player.js"></script>
+    <script src="js/progress.js"></script>
+    <script src="js/lyric.js"></script>
+    <script src="js/index.js"></script>
+
+</head>
+<body>
+<div class="header">
+    <div class="header_logo">
+        <img src="images/player_logo.png" alt="">
+    </div>
+    <div class="header_login">
+        <span class="header_logins">登录</span>
+        <span class="header_registered">注册</span>
+    </div>
+</div>
+<div class="content" >
+    <div class="contents" style="display: block">
+        <div class="contents_left">
+            <div class="left_title">
+                <ul class="left_title_ul">
+                    <li><i></i>收藏</li>
+                    <li><i></i>添加到</li>
+                    <li><i></i>下载</li>
+                    <li><i></i>删除</li>
+                    <li><i></i>清空列表</li>
+                </ul>
+            </div>
+            <div class="left_song">
+                <ul>
+                    <li class="song_lists">
+                        <div class="song_chek">
+                            <i></i>
+                        </div>
+                        <div class="song_number"></div>
+                        <div class="song_name">歌曲</div>
+                        <div class="song_singer">歌手</div>
+                        <div class="song_time">
+                            <span>时间</span>
+                        </div>
+                    </li>
+                </ul>
+                <ul class="song_muen" data-mcs-theme="minimal-dark">
+                   <ul></ul>
+                </ul>
+            </div>
+        </div>
+        <div class="contents_right">
+            <div class="right_cover">
+                <img src="" alt="">
+            </div>
+            <div class="song_info">
+                <div class="song_info_name">
+                    歌曲名: <span></span>
+                </div>
+                <div class="song_info_singer">
+                    歌手名: <span></span>
+                </div>
+                <div class="song_info_album">
+                    专辑名: <span></span>
+                </div>
+            </div>
+            <div class="right_lyric">
+                <ul class="right_lyrics"></ul>
+            </div>
+        </div>
+    </div>
+    <div class="contents_pure" style="display: none">
+        <ul class="right_lyrics"></ul>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="footers">
+        <a href="javascript:;" class="pre"></a>
+        <a href="javascript:;" class="play"></a>
+        <a href="javascript:;" class="next"></a>
+        <div class="footers_pro">
+            <div class="footers_pro_info">
+                <span class="pro_info_name">XX - XXX </span>
+                <span class="pro_info_time">00:00 / 00:00</span>
+            </div>
+            <div class="footers_pro_bar">
+                <div class="pro_bar_bg">
+                    <div class="pro_bar_line">
+                        <div class="pro_bar_dot"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <a href="javascript:;" class="play_mode"></a>
+        <a href="javascript:;" class="like"></a>
+        <a href="javascript:;" class="dowm"></a>
+        <a href="javascript:;" class="comments"></a>
+        <a href="javascript:;" class="pure"></a>
+        <div class="volume_icon"></div>
+        <div class="volume">
+            <div class="volume_bar">
+                <div class="volume_line">
+                    <div class="volume_dot"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="mask_bg"></div>
+<div class="mask"></div>
+<audio src="" class="audio_music" ></audio>
+</body>
+</html>
